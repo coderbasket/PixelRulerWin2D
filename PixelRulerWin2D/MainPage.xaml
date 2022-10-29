@@ -10,15 +10,18 @@
     mc:Ignorable="d">
 
     <Grid>
-        <controls:RulerControl
-            Height="80"
-            HorizontalAlignment="Stretch"
-            VerticalAlignment="Top"
-            BackgroundColor="#333"
-            FontFamily="Segoe UI"
-            FontSize="12"
-            LargeSteps="50"
-            RulerWidth="80"
-            SmallSteps="10" />
+        <StackPanel>
+            <controls:RulerControl
+                Height="80"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Top"
+                BackgroundColor="#333"
+                FontFamily="Segoe UI"
+                FontSize="12"
+                LargeSteps="50"
+                RulerWidth="80"
+                SmallSteps="10" />
+            
+        </StackPanel>
     </Grid>
 </Page>
