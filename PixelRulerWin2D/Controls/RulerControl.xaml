@@ -15,5 +15,6 @@
         Height="{x:Bind RulerWidth, Mode=OneWay}"
         HorizontalAlignment="Stretch"
         VerticalAlignment="Top"
-        ClearColor="{x:Bind BackgroundColor, Mode=OneWay}" Draw="RulerCanvas_OnDraw" />
+        ClearColor="{x:Bind BackgroundColor, Mode=OneWay}" Draw="RulerCanvas_OnDraw" 
+        />
 </UserControl>
